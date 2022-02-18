@@ -1,0 +1,24 @@
+"use strict";
+exports.__esModule = true;
+exports.TypeConstant = void 0;
+var TypeConstant;
+(function (TypeConstant) {
+    TypeConstant["Undefined"] = "undefined";
+    TypeConstant["String"] = "string";
+    TypeConstant["Number"] = "number";
+    TypeConstant["Null"] = "null";
+    TypeConstant["Boolean"] = "boolean";
+    TypeConstant["NaN"] = "NaN";
+    TypeConstant["Symbol"] = "symbol";
+    TypeConstant["Function"] = "function";
+    TypeConstant["Object"] = "[object Object]";
+    TypeConstant["ArrayBuffer"] = "[object ArrayBuffer]";
+    TypeConstant["FormData"] = "[object FormData]";
+    TypeConstant["Date"] = "[object Date]";
+    TypeConstant["File"] = "[object File]";
+    TypeConstant["Blob"] = "[object Blob]";
+    TypeConstant["URLSearchParams"] = "[object URLSearchParams]";
+    TypeConstant["Set"] = "[object Set]";
+    TypeConstant["Map"] = "[object Map]";
+    TypeConstant["Array"] = "[object Array]";
+})(TypeConstant = exports.TypeConstant || (exports.TypeConstant = {}));
