@@ -1,42 +1,4 @@
-// const LogMap = {
-//   'customerName': '客户姓名',
-//   'gender': '客户性别',
-//   'age': '年龄',
-//   'customerSource': '客户来源',
-//   'mark': {
-//     label: '备注',
-//     value: [{ key: 'tt', value: 'test' }],
-//   },
-//   // "tagMap": {},
-//   'intentionalInsureType': '意向险种',
-//   // "defineTag": [],
-//   'focusOther': '关注其他平台',
-//   'salary': '家庭年收入',
-//   'debt': '家庭负债',
-//   'customerDesc': '客户简介',
-//   'addressDetail': '详细地址',
-//   'loginIdList': '会员ID',
-//   'tagMap': {
-//     '1': {
-//       'tagDesc': '意向险种',
-//       'cc': '自定义',
-//     },
-//   },
-//   'contactDVOList': {
-//     'name': '家庭成员姓名',
-//     'mobile': '家庭成员手机号',
-//     'gender': '家庭成员性别',
-//     'isDefault': '默认联系人',
-//     'relation': {
-//       label: '家庭成员关系',
-//       value: [{ key: '0', value: '本人' }, { key: 1, value: '亲戚' }],
-//     },
-//   },
-//   'tagDesc': {
-//     label: '添加自定义标签',
-//     value: [{ key: '0', value: '本人' }, { key: '1', value: '亲戚' }],
-//   },
-// };
+
 const logMap = {
   'customerName': '客户姓名',
   'gender': {
