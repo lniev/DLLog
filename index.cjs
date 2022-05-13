@@ -75,7 +75,7 @@ class BaseDiffLog {
 
 	generateObjectTypeLog(key, preValue, curValue) {
 		if (!this.logMap?.[key]) return;
-		const _DiffLog = new DiffLog(preValue, curValue, this.logMap[key]);
+		const _DiffLog = new BaseDiffLog(preValue, curValue, this.logMap[key]);
 		_DiffLog.reverse = this.reverse;
 		_DiffLog.logs = this.logs;
 		_DiffLog.getLog();
@@ -268,5 +268,4 @@ class DDLog extends BaseDiffLog {
 		return (result && result[fieldNames?.value || "value"]) || key;
 	}
 }
-
-modules.exports = DDLog;
+module.exports = DDLog;
