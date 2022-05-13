@@ -186,7 +186,7 @@
   }
 }
 
-export default class DiffLog extends BaseDiffLog {
+export default class DDLog extends BaseDiffLog {
   constructor(preData, curData, logMap) {
     super(preData, curData, logMap);
   }

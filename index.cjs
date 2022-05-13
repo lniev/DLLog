@@ -204,7 +204,7 @@ class BaseDiffLog {
 	}
 }
 
-class DiffLog extends BaseDiffLog {
+class DDLog extends BaseDiffLog {
 	constructor(preData, curData, logMap) {
 		super(preData, curData, logMap);
 	}
@@ -269,4 +269,4 @@ class DiffLog extends BaseDiffLog {
 	}
 }
 
-modules.exports = DiffLog;
+modules.exports = DDLog;
